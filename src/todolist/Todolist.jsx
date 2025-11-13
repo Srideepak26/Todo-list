@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import "./ToDoList.css";
+import './todo.css'
 
 export const ToDoList = () => {
     const [todos, setTodos] = useState([
