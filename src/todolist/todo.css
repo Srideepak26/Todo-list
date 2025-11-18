@@ -67,17 +67,17 @@
 }
 
 .cancel-btn {
-    background-color: #96ac9b;
+    background-color:red;
     color:white;
 }
 
 .save-btn {
-    background-color: #96ac9b;
+    background-color: #1dad3f;
     color: white;
 }
 
 .delete-btn {
-    background-color: red;
+    background-color:red;
     color: white;
 }
 
@@ -87,11 +87,11 @@
 }
 
 .save-btn:hover {
-    background-color: #aaa;
+    background-color: green;
 }
 
 .delete-btn:hover {
-    background-color: #aaa;
+    background-color: red;
 }
 
 .todo-list {
@@ -157,7 +157,7 @@
     color: white;
 }
 
-.edit-btn:hover {
+.view-btn:hover {
     background-color: #0056b3;
 }
 
@@ -167,3 +167,32 @@
     color: #777;
     font-style: italic;
 }
+.dialog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 8px 16px;
+}
+
+.close-icon {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color:red;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+}
+
+.close-icon:hover {
+    color: red;
+}
+.dialog-box label {
+    display: block;
+    font-weight: 600;
+    margin: 10px 0 5px;
+    color: #333;
+}
+

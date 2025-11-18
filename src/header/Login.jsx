@@ -41,7 +41,7 @@ const LoginForm = () => {
         justifyContent: "center",
         height: "100%",
         backgroundColor: "#f2f2f2",
-        paddingTop: "40px",
+        paddingTop: "100px",
     };
 
     const boxStyle = {
@@ -74,7 +74,7 @@ const LoginForm = () => {
     };
 
     const errorStyle = {
-        backgroundColor: "red",
+        color:"red",
 
     }
 
